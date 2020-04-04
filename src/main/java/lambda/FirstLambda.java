@@ -11,6 +11,7 @@ public class FirstLambda {
 //                return pathname.getName().endsWith(".java");
 //            }
 //        };
+        //Lambda expression with parameter
         FileFilter filterLambda=(File pathname) -> pathname.getName().endsWith(".java");
 
         File dir= new File ("c:/mobiles");
